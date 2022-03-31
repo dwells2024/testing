@@ -83,7 +83,7 @@ function main() {
 
   // That went well. Let's draw the dots themselves!
   //
-  gl.drawArrays(gl.POINTS, 0, n); // gl.drawArrays(mode, first, count)
+  gl.drawArrays(gl.TRIANGLES, 0, n); // gl.drawArrays(mode, first, count)
 			//mode: sets drawing primitive to use. Other valid choices: 
 				// gl.LINES, gl.LINE_STRIP, gl.LINE_LOOP, 
 				// gl.TRIANGLES, gl.TRIANGLES_STRIP, gl.TRIANGLE_FAN
